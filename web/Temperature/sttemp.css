@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url(sun.jpg);
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+h2{
+    color:rgb(236, 34, 20);
+    font-display: 29%;
+    padding-inline: 20px;
+    align-items: center;
+}
+.button-tool1{
+    border-radius: 20px;
+    padding:left 18px;
+    background-color: rgb(228, 10, 144);
+    color: rgb(14, 1, 1);
+    font-size: 15px;
+    
+    
+}
+.button-tool2{
+    border-radius: 120px;
+    padding-right:  18px;
+    background-color: rgb(189, 92, 168);
+    color: rgb(15, 1, 1);
+    font-size:15px ;
+
+}
+.button-tool:hover {
+    background-color: rgb(245, 241, 15);
+    color: black;
+}
+.box {
+    width: 35%;
+    height: 32px;
+    border-radius: 15px;
+}
